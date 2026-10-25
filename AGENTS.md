@@ -1,0 +1,3 @@
+- Business facts, services, fleet and testimonials live in `src/lib/site.ts`; pages render from it so content stays consistent.
+- Subpages use `PageShell` (src/components/site/Shell.tsx) for shared header/footer; the homepage keeps its converted design markup.
+- Enquiry forms hand off to WhatsApp (no backend yet), so nothing is stored server-side.
